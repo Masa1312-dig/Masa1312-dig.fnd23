@@ -1,0 +1,27 @@
+.rectangle {
+    margin:0 auto;              /* 中央寄せブロック */
+    background-color: green;
+    text-align:  center;        /* 中央寄せテキスト */
+    width: 200px;
+    height: 200px;
+}
+
+#kouji {
+    z-index: 2;
+    text-align:  center; 
+    position: relative;
+    top: -100px; 
+    left: 5px;
+    font-size: 20px;
+}
+
+#BJ {
+    z-index: 1;
+    position: relative;
+    left: -250px;
+}
+
+body {
+    background:radial-gradient(white, rgb(150, 150, 195)); 
+    font-size: 20px;
+    }
