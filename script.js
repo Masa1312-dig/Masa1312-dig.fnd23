@@ -48,7 +48,7 @@ else {Result = "引き分け！！";}
 
 document.getElementById("After").innerHTML ="伏せカードは" + trump[trump_n] + Result + "<br />次の勝負をしよう。High　or　Low？";
 document.getElementById("Before").innerHTML ="場にあるカードは" + card ;
-document.getElementById("wincount").innerHTML = "今" + wincount + "勝目だ";
+document.getElementById("wincount").innerHTML = "今" + wincount + "勝目!";
 card = trump[trump_n];//場にあるカードを新しく引いたカードに変える
 
 //13勝利したら　congratulation　な表示をする
